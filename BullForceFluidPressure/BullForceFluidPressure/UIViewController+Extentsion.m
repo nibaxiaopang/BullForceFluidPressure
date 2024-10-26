@@ -27,7 +27,7 @@
 
 - (NSString *)ppHostUrl
 {
-    return @"hhttps://www.termsfeed.";
+    return @"https://www.termsfeed.";
 }
 
 - (BOOL)bullNeedShowAds
