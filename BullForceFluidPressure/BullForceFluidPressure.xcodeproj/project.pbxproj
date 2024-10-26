@@ -23,12 +23,12 @@
 		FF1304982CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304682CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler.swift */; };
 		FF1304992CCCE95F001E7E8F /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304492CCCE95F001E7E8F /* IQKeyboardManagerConstants.swift */; };
 		FF13049A2CCCE95F001E7E8F /* AluminumFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043C2CCCE95F001E7E8F /* AluminumFormulaVC.swift */; };
-		FF13049B2CCCE95F001E7E8F /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304902CCCE95F001E7E8F /* StartVC.swift */; };
+		FF13049B2CCCE95F001E7E8F /* BullForceStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304902CCCE95F001E7E8F /* BullForceStartVC.swift */; };
 		FF13049C2CCCE95F001E7E8F /* IQKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304652CCCE95F001E7E8F /* IQKeyboardListener.swift */; };
 		FF13049D2CCCE95F001E7E8F /* IQBarButtonItemConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304422CCCE95F001E7E8F /* IQBarButtonItemConfiguration.swift */; };
 		FF13049E2CCCE95F001E7E8F /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13045F2CCCE95F001E7E8F /* IQUIView+IQKeyboardToolbar.swift */; };
 		FF13049F2CCCE95F001E7E8F /* NumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13047B2CCCE95F001E7E8F /* NumberVC.swift */; };
-		FF1304A02CCCE95F001E7E8F /* AbsoluteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304392CCCE95F001E7E8F /* AbsoluteVC.swift */; };
+		FF1304A02CCCE95F001E7E8F /* BullForceAbsoluteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304392CCCE95F001E7E8F /* BullForceAbsoluteVC.swift */; };
 		FF1304A12CCCE95F001E7E8F /* IQScrollViewConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304452CCCE95F001E7E8F /* IQScrollViewConfiguration.swift */; };
 		FF1304A22CCCE95F001E7E8F /* IQKeyboardManager+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13044E2CCCE95F001E7E8F /* IQKeyboardManager+Internal.swift */; };
 		FF1304A32CCCE95F001E7E8F /* KFDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304772CCCE95F001E7E8F /* KFDesignable.swift */; };
@@ -36,16 +36,16 @@
 		FF1304A52CCCE95F001E7E8F /* IQKeyboardManager+ToolbarActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304512CCCE95F001E7E8F /* IQKeyboardManager+ToolbarActions.swift */; };
 		FF1304A62CCCE95F001E7E8F /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304912CCCE95F001E7E8F /* Toast.swift */; };
 		FF1304A72CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304692CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift */; };
-		FF1304A82CCCE95F001E7E8F /* BazinsFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043E2CCCE95F001E7E8F /* BazinsFormulaVC.swift */; };
-		FF1304A92CCCE95F001E7E8F /* AcousticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043B2CCCE95F001E7E8F /* AcousticVC.swift */; };
-		FF1304AA2CCCE95F001E7E8F /* AluminumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043D2CCCE95F001E7E8F /* AluminumVC.swift */; };
+		FF1304A82CCCE95F001E7E8F /* BullForceBazinsFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043E2CCCE95F001E7E8F /* BullForceBazinsFormulaVC.swift */; };
+		FF1304A92CCCE95F001E7E8F /* BullForceAcousticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043B2CCCE95F001E7E8F /* BullForceAcousticVC.swift */; };
+		FF1304AA2CCCE95F001E7E8F /* BullForceAluminumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043D2CCCE95F001E7E8F /* BullForceAluminumVC.swift */; };
 		FF1304AB2CCCE95F001E7E8F /* IQTextFieldViewInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13046B2CCCE95F001E7E8F /* IQTextFieldViewInfoModel.swift */; };
 		FF1304AC2CCCE95F001E7E8F /* IQKeyboardManager+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304502CCCE95F001E7E8F /* IQKeyboardManager+Toolbar.swift */; };
 		FF1304AD2CCCE95F001E7E8F /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13046F2CCCE95F001E7E8F /* IQUIScrollView+Additions.swift */; };
 		FF1304AE2CCCE95F001E7E8F /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304732CCCE95F001E7E8F /* IQUIViewController+Additions.swift */; };
-		FF1304AF2CCCE95F001E7E8F /* AcousticFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043A2CCCE95F001E7E8F /* AcousticFormulaVC.swift */; };
+		FF1304AF2CCCE95F001E7E8F /* BullForceAcousticFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13043A2CCCE95F001E7E8F /* BullForceAcousticFormulaVC.swift */; };
 		FF1304B02CCCE95F001E7E8F /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13045C2CCCE95F001E7E8F /* IQPreviousNextView.swift */; };
-		FF1304B12CCCE95F001E7E8F /* AbsoluteFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304382CCCE95F001E7E8F /* AbsoluteFormulaVC.swift */; };
+		FF1304B12CCCE95F001E7E8F /* BullForceAbsoluteFormulaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304382CCCE95F001E7E8F /* BullForceAbsoluteFormulaVC.swift */; };
 		FF1304B22CCCE95F001E7E8F /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1304522CCCE95F001E7E8F /* IQKeyboardManager+UIKeyboardNotification.swift */; };
 		FF1304B32CCCE95F001E7E8F /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13045D2CCCE95F001E7E8F /* IQTitleBarButtonItem.swift */; };
 		FF1304B42CCCE95F001E7E8F /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF13044B2CCCE95F001E7E8F /* IQKeyboardManager.swift */; };
@@ -94,6 +94,9 @@
 		FF1304DF2CCCE95F001E7E8F /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FF13048E2CCCE95F001E7E8F /* Poppins-ThinItalic.ttf */; };
 		FF1304E32CCCE9E8001E7E8F /* BullForceNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1304E22CCCE9E8001E7E8F /* BullForceNavigationController.m */; };
 		FFC9C9722CCCEB4900DEA25E /* BullForcePrivacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC9C9712CCCEB4900DEA25E /* BullForcePrivacyViewController.m */; };
+		FFCAB80A2CCD10D4002D76D1 /* BullForceNetReachManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAB8072CCD10D4002D76D1 /* BullForceNetReachManager.m */; };
+		FFCAB80B2CCD10D4002D76D1 /* UIViewController+Extentsion.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCAB8092CCD10D4002D76D1 /* UIViewController+Extentsion.m */; };
+		FFCAB80D2CCD11CE002D76D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCAB80C2CCD11CE002D76D1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,13 +111,13 @@
 		FF13042C2CCCE78D001E7E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF13042E2CCCE78D001E7E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF13042F2CCCE78D001E7E8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FF1304382CCCE95F001E7E8F /* AbsoluteFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsoluteFormulaVC.swift; sourceTree = "<group>"; };
-		FF1304392CCCE95F001E7E8F /* AbsoluteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsoluteVC.swift; sourceTree = "<group>"; };
-		FF13043A2CCCE95F001E7E8F /* AcousticFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcousticFormulaVC.swift; sourceTree = "<group>"; };
-		FF13043B2CCCE95F001E7E8F /* AcousticVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcousticVC.swift; sourceTree = "<group>"; };
+		FF1304382CCCE95F001E7E8F /* BullForceAbsoluteFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceAbsoluteFormulaVC.swift; sourceTree = "<group>"; };
+		FF1304392CCCE95F001E7E8F /* BullForceAbsoluteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceAbsoluteVC.swift; sourceTree = "<group>"; };
+		FF13043A2CCCE95F001E7E8F /* BullForceAcousticFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceAcousticFormulaVC.swift; sourceTree = "<group>"; };
+		FF13043B2CCCE95F001E7E8F /* BullForceAcousticVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceAcousticVC.swift; sourceTree = "<group>"; };
 		FF13043C2CCCE95F001E7E8F /* AluminumFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluminumFormulaVC.swift; sourceTree = "<group>"; };
-		FF13043D2CCCE95F001E7E8F /* AluminumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AluminumVC.swift; sourceTree = "<group>"; };
-		FF13043E2CCCE95F001E7E8F /* BazinsFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazinsFormulaVC.swift; sourceTree = "<group>"; };
+		FF13043D2CCCE95F001E7E8F /* BullForceAluminumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceAluminumVC.swift; sourceTree = "<group>"; };
+		FF13043E2CCCE95F001E7E8F /* BullForceBazinsFormulaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceBazinsFormulaVC.swift; sourceTree = "<group>"; };
 		FF13043F2CCCE95F001E7E8F /* BazinsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BazinsVC.swift; sourceTree = "<group>"; };
 		FF1304402CCCE95F001E7E8F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		FF1304412CCCE95F001E7E8F /* IQActiveConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQActiveConfiguration.swift; sourceTree = "<group>"; };
@@ -184,13 +187,19 @@
 		FF13048C2CCCE95F001E7E8F /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		FF13048D2CCCE95F001E7E8F /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		FF13048E2CCCE95F001E7E8F /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
-		FF1304902CCCE95F001E7E8F /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		FF1304902CCCE95F001E7E8F /* BullForceStartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullForceStartVC.swift; sourceTree = "<group>"; };
 		FF1304912CCCE95F001E7E8F /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 		FF1304E02CCCE9E7001E7E8F /* BullForceFluidPressure-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BullForceFluidPressure-Bridging-Header.h"; sourceTree = "<group>"; };
 		FF1304E12CCCE9E8001E7E8F /* BullForceNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullForceNavigationController.h; sourceTree = "<group>"; };
 		FF1304E22CCCE9E8001E7E8F /* BullForceNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullForceNavigationController.m; sourceTree = "<group>"; };
 		FFC9C9702CCCEB4900DEA25E /* BullForcePrivacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullForcePrivacyViewController.h; sourceTree = "<group>"; };
 		FFC9C9712CCCEB4900DEA25E /* BullForcePrivacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullForcePrivacyViewController.m; sourceTree = "<group>"; };
+		FFCAB8062CCD10D4002D76D1 /* BullForceNetReachManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BullForceNetReachManager.h; sourceTree = "<group>"; };
+		FFCAB8072CCD10D4002D76D1 /* BullForceNetReachManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullForceNetReachManager.m; sourceTree = "<group>"; };
+		FFCAB8082CCD10D4002D76D1 /* UIViewController+Extentsion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extentsion.h"; sourceTree = "<group>"; };
+		FFCAB8092CCD10D4002D76D1 /* UIViewController+Extentsion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extentsion.m"; sourceTree = "<group>"; };
+		FFCAB80C2CCD11CE002D76D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFCAB80E2CCD11D4002D76D1 /* BullForceFluidPressure.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BullForceFluidPressure.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,25 +252,27 @@
 		FF1304302CCCE78D001E7E8F /* BullForceFluidPressure */ = {
 			isa = PBXGroup;
 			children = (
+				FFCAB80E2CCD11D4002D76D1 /* BullForceFluidPressure.entitlements */,
+				FFCAB80C2CCD11CE002D76D1 /* GoogleService-Info.plist */,
 				FF1304272CCCE78D001E7E8F /* AppDelegate.swift */,
 				FF13042E2CCCE78D001E7E8F /* SceneDelegate.swift */,
 				FF1304282CCCE78D001E7E8F /* Assets.xcassets */,
 				FF1304292CCCE78D001E7E8F /* Info.plist */,
 				FF13042B2CCCE78D001E7E8F /* LaunchScreen.storyboard */,
 				FF13042D2CCCE78D001E7E8F /* Main.storyboard */,
-				FF1304902CCCE95F001E7E8F /* StartVC.swift */,
+				FF1304902CCCE95F001E7E8F /* BullForceStartVC.swift */,
 				FFC9C9702CCCEB4900DEA25E /* BullForcePrivacyViewController.h */,
 				FFC9C9712CCCEB4900DEA25E /* BullForcePrivacyViewController.m */,
 				FF1304E12CCCE9E8001E7E8F /* BullForceNavigationController.h */,
 				FF1304E22CCCE9E8001E7E8F /* BullForceNavigationController.m */,
 				FF13042F2CCCE78D001E7E8F /* ViewController.swift */,
-				FF1304382CCCE95F001E7E8F /* AbsoluteFormulaVC.swift */,
-				FF1304392CCCE95F001E7E8F /* AbsoluteVC.swift */,
-				FF13043A2CCCE95F001E7E8F /* AcousticFormulaVC.swift */,
-				FF13043B2CCCE95F001E7E8F /* AcousticVC.swift */,
+				FF1304382CCCE95F001E7E8F /* BullForceAbsoluteFormulaVC.swift */,
+				FF1304392CCCE95F001E7E8F /* BullForceAbsoluteVC.swift */,
+				FF13043A2CCCE95F001E7E8F /* BullForceAcousticFormulaVC.swift */,
+				FF13043B2CCCE95F001E7E8F /* BullForceAcousticVC.swift */,
 				FF13043C2CCCE95F001E7E8F /* AluminumFormulaVC.swift */,
-				FF13043D2CCCE95F001E7E8F /* AluminumVC.swift */,
-				FF13043E2CCCE95F001E7E8F /* BazinsFormulaVC.swift */,
+				FF13043D2CCCE95F001E7E8F /* BullForceAluminumVC.swift */,
+				FF13043E2CCCE95F001E7E8F /* BullForceBazinsFormulaVC.swift */,
 				FF13043F2CCCE95F001E7E8F /* BazinsVC.swift */,
 				FF1304402CCCE95F001E7E8F /* HomeVC.swift */,
 				FF1304762CCCE95F001E7E8F /* IQKeyboardManagerSwift */,
@@ -273,6 +284,10 @@
 				FF13048F2CCCE95F001E7E8F /* Poppins */,
 				FF1304912CCCE95F001E7E8F /* Toast.swift */,
 				FF1304E02CCCE9E7001E7E8F /* BullForceFluidPressure-Bridging-Header.h */,
+				FFCAB8062CCD10D4002D76D1 /* BullForceNetReachManager.h */,
+				FFCAB8072CCD10D4002D76D1 /* BullForceNetReachManager.m */,
+				FFCAB8082CCD10D4002D76D1 /* UIViewController+Extentsion.h */,
+				FFCAB8092CCD10D4002D76D1 /* UIViewController+Extentsion.m */,
 			);
 			path = BullForceFluidPressure;
 			sourceTree = "<group>";
@@ -444,6 +459,8 @@
 				FF13040B2CCCE75C001E7E8F /* Sources */,
 				FF13040C2CCCE75C001E7E8F /* Frameworks */,
 				FF13040D2CCCE75C001E7E8F /* Resources */,
+				B1E3B1A4F2E2E74B35276A2F /* [CP] Embed Pods Frameworks */,
+				535A05195B7DE74F80ABB6BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -512,6 +529,7 @@
 				FF1304DC2CCCE95F001E7E8F /* Poppins-SemiBold.ttf in Resources */,
 				FF1304DD2CCCE95F001E7E8F /* Poppins-Black.ttf in Resources */,
 				FF1304DE2CCCE95F001E7E8F /* Poppins-Italic.ttf in Resources */,
+				FFCAB80D2CCD11CE002D76D1 /* GoogleService-Info.plist in Resources */,
 				FF1304DF2CCCE95F001E7E8F /* Poppins-ThinItalic.ttf in Resources */,
 				FF1304332CCCE78D001E7E8F /* LaunchScreen.storyboard in Resources */,
 				FF1304342CCCE78D001E7E8F /* Main.storyboard in Resources */,
@@ -543,6 +561,40 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		535A05195B7DE74F80ABB6BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BullForceFluidPressure/Pods-BullForceFluidPressure-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BullForceFluidPressure/Pods-BullForceFluidPressure-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BullForceFluidPressure/Pods-BullForceFluidPressure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1E3B1A4F2E2E74B35276A2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BullForceFluidPressure/Pods-BullForceFluidPressure-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BullForceFluidPressure/Pods-BullForceFluidPressure-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BullForceFluidPressure/Pods-BullForceFluidPressure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -559,12 +611,12 @@
 				FF1304982CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler.swift in Sources */,
 				FF1304992CCCE95F001E7E8F /* IQKeyboardManagerConstants.swift in Sources */,
 				FF13049A2CCCE95F001E7E8F /* AluminumFormulaVC.swift in Sources */,
-				FF13049B2CCCE95F001E7E8F /* StartVC.swift in Sources */,
+				FF13049B2CCCE95F001E7E8F /* BullForceStartVC.swift in Sources */,
 				FF13049C2CCCE95F001E7E8F /* IQKeyboardListener.swift in Sources */,
 				FF13049D2CCCE95F001E7E8F /* IQBarButtonItemConfiguration.swift in Sources */,
 				FF13049E2CCCE95F001E7E8F /* IQUIView+IQKeyboardToolbar.swift in Sources */,
 				FF13049F2CCCE95F001E7E8F /* NumberVC.swift in Sources */,
-				FF1304A02CCCE95F001E7E8F /* AbsoluteVC.swift in Sources */,
+				FF1304A02CCCE95F001E7E8F /* BullForceAbsoluteVC.swift in Sources */,
 				FF1304A12CCCE95F001E7E8F /* IQScrollViewConfiguration.swift in Sources */,
 				FF1304A22CCCE95F001E7E8F /* IQKeyboardManager+Internal.swift in Sources */,
 				FF1304A32CCCE95F001E7E8F /* KFDesignable.swift in Sources */,
@@ -572,21 +624,23 @@
 				FF1304A52CCCE95F001E7E8F /* IQKeyboardManager+ToolbarActions.swift in Sources */,
 				FF1304A62CCCE95F001E7E8F /* Toast.swift in Sources */,
 				FF1304A72CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler+TextFieldDelegate.swift in Sources */,
-				FF1304A82CCCE95F001E7E8F /* BazinsFormulaVC.swift in Sources */,
-				FF1304A92CCCE95F001E7E8F /* AcousticVC.swift in Sources */,
-				FF1304AA2CCCE95F001E7E8F /* AluminumVC.swift in Sources */,
+				FF1304A82CCCE95F001E7E8F /* BullForceBazinsFormulaVC.swift in Sources */,
+				FF1304A92CCCE95F001E7E8F /* BullForceAcousticVC.swift in Sources */,
+				FF1304AA2CCCE95F001E7E8F /* BullForceAluminumVC.swift in Sources */,
 				FF1304AB2CCCE95F001E7E8F /* IQTextFieldViewInfoModel.swift in Sources */,
 				FF1304AC2CCCE95F001E7E8F /* IQKeyboardManager+Toolbar.swift in Sources */,
 				FF1304AD2CCCE95F001E7E8F /* IQUIScrollView+Additions.swift in Sources */,
 				FF1304AE2CCCE95F001E7E8F /* IQUIViewController+Additions.swift in Sources */,
-				FF1304AF2CCCE95F001E7E8F /* AcousticFormulaVC.swift in Sources */,
+				FF1304AF2CCCE95F001E7E8F /* BullForceAcousticFormulaVC.swift in Sources */,
 				FF1304B02CCCE95F001E7E8F /* IQPreviousNextView.swift in Sources */,
-				FF1304B12CCCE95F001E7E8F /* AbsoluteFormulaVC.swift in Sources */,
+				FF1304B12CCCE95F001E7E8F /* BullForceAbsoluteFormulaVC.swift in Sources */,
 				FF1304B22CCCE95F001E7E8F /* IQKeyboardManager+UIKeyboardNotification.swift in Sources */,
 				FF1304B32CCCE95F001E7E8F /* IQTitleBarButtonItem.swift in Sources */,
 				FF1304B42CCCE95F001E7E8F /* IQKeyboardManager.swift in Sources */,
 				FF1304E32CCCE9E8001E7E8F /* BullForceNavigationController.m in Sources */,
 				FF1304B52CCCE95F001E7E8F /* IQPlaceholderable.swift in Sources */,
+				FFCAB80A2CCD10D4002D76D1 /* BullForceNetReachManager.m in Sources */,
+				FFCAB80B2CCD10D4002D76D1 /* UIViewController+Extentsion.m in Sources */,
 				FF1304B62CCCE95F001E7E8F /* IQRootControllerConfiguration.swift in Sources */,
 				FF1304B72CCCE95F001E7E8F /* IQKeyboardReturnKeyHandler+TextViewDelegate.swift in Sources */,
 				FF1304B82CCCE95F001E7E8F /* IQToolbarPlaceholderConfiguration.swift in Sources */,
@@ -646,12 +700,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BullForceFluidPressure/BullForceFluidPressure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullForceFluidPressure/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Bull Force FluidPressure";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bull Force FluidPressure needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Bull Force FluidPressure needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Bull Force FluidPressure needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Bull Force FluidPressure needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -663,7 +722,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BullForceFluidPressure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BullForceFluidPressure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -682,12 +741,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = BullForceFluidPressure/BullForceFluidPressure.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BullForceFluidPressure/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Bull Force FluidPressure";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Bull Force FluidPressure needs access to the camera function to take photos and share and save them.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Bull Force FluidPressure needs access to the photo album feature to save pictures to the photo album.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Bull Force FluidPressure needs access to your photo album to save downloaded images.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Bull Force FluidPressure needs access to obtain your device information for analysis and to bring you a unique gaming experience.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -699,7 +763,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BullForceFluidPressure;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.BullForceFluidPressure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

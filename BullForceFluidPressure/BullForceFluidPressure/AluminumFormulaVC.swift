@@ -20,7 +20,7 @@ class AluminumFormulaVC: UIViewController {
     }
         
     @IBAction func TapOnCalculte(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AluminumVC") as! AluminumVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AluminumVC") as! BullForceAluminumVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

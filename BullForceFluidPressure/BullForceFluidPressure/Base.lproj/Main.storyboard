@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--AluminumVC-->
+        <!--Bull Force AluminumVC-->
         <scene sceneID="dX7-Y2-8x5">
             <objects>
-                <viewController storyboardIdentifier="AluminumVC" id="AGD-T6-FJw" customClass="AluminumVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AluminumVC" id="AGD-T6-FJw" customClass="BullForceAluminumVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qPI-Kf-Jab">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,7 +43,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aluminum pipe Pressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53K-k7-23D">
-                                <rect key="frame" x="75" y="70.333333333333329" width="287.33333333333331" height="32.333333333333329"/>
+                                <rect key="frame" x="75.000000000000014" y="73" width="250.33333333333337" height="27"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -107,10 +107,10 @@
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hmw-w6-zK8">
-                                <rect key="frame" x="20" y="379" width="353" height="58"/>
+                                <rect key="frame" x="20" y="379" width="353" height="53.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bHf-nc-oQr">
-                                        <rect key="frame" x="10" y="15" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="14.999999999999998" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -172,10 +172,10 @@
             </objects>
             <point key="canvasLocation" x="4582" y="-26"/>
         </scene>
-        <!--StartVC-->
+        <!--Bull Force StartVC-->
         <scene sceneID="qcR-Fu-ySU">
             <objects>
-                <viewController storyboardIdentifier="StartVC" id="UEn-HU-ymh" customClass="StartVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StartVC" id="UEn-HU-ymh" customClass="BullForceStartVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Pm2-gT-GKW">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,13 +184,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bull Force FluidPressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vh3-0y-57C">
-                                <rect key="frame" x="20" y="69" width="353" height="36.666666666666657"/>
+                                <rect key="frame" x="20" y="69" width="353" height="30.333333333333329"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="26"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NR4-kY-9Ju">
-                                <rect key="frame" x="96.666666666666686" y="130.66666666666666" width="200" height="199.99999999999997"/>
+                                <rect key="frame" x="96.666666666666686" y="124.33333333333331" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="GnI-cE-ch2"/>
                                     <constraint firstAttribute="width" constant="200" id="Xe9-Wz-hbA"/>
@@ -202,7 +202,7 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmv-a0-4f5">
-                                <rect key="frame" x="71.666666666666686" y="355.66666666666669" width="250" height="60"/>
+                                <rect key="frame" x="71.666666666666686" y="349.33333333333331" width="250" height="60"/>
                                 <color key="backgroundColor" name="btn"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="cKd-11-G8b"/>
@@ -221,7 +221,7 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="MxN-hU-Rgb">
-                                <rect key="frame" x="20" y="435.66666666666669" width="353" height="60"/>
+                                <rect key="frame" x="20" y="429.33333333333331" width="353" height="60"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lhY-z6-UIW">
                                         <rect key="frame" x="0.0" y="0.0" width="166.66666666666666" height="60"/>
@@ -259,7 +259,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vO-Fg-1rU">
-                                <rect key="frame" x="20" y="515.66666666666663" width="353" height="60"/>
+                                <rect key="frame" x="20" y="509.33333333333326" width="353" height="60"/>
                                 <color key="backgroundColor" name="btn"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ejI-e7-oba"/>
@@ -276,13 +276,18 @@
                                     <segue destination="jsy-2A-55h" kind="push" id="vs1-mF-Aew"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="ppS-3o-yDX">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="OPS-ku-0AE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="OPS-ku-0AE" firstAttribute="trailing" secondItem="9vO-Fg-1rU" secondAttribute="trailing" constant="20" id="5jS-2s-u7a"/>
                             <constraint firstItem="Vh3-0y-57C" firstAttribute="leading" secondItem="OPS-ku-0AE" secondAttribute="leading" constant="20" id="7Be-lt-FIm"/>
+                            <constraint firstItem="ppS-3o-yDX" firstAttribute="centerX" secondItem="Pm2-gT-GKW" secondAttribute="centerX" id="9iy-gu-W5g"/>
                             <constraint firstAttribute="trailing" secondItem="ODq-H9-IKa" secondAttribute="trailing" id="A1N-IK-46V"/>
+                            <constraint firstItem="ppS-3o-yDX" firstAttribute="centerY" secondItem="Pm2-gT-GKW" secondAttribute="centerY" id="EOJ-Uu-h0q"/>
                             <constraint firstItem="9vO-Fg-1rU" firstAttribute="centerX" secondItem="Pm2-gT-GKW" secondAttribute="centerX" id="Eca-sV-96G"/>
                             <constraint firstItem="MxN-hU-Rgb" firstAttribute="leading" secondItem="OPS-ku-0AE" secondAttribute="leading" constant="20" id="Gy6-wN-MbK"/>
                             <constraint firstItem="ODq-H9-IKa" firstAttribute="top" secondItem="Pm2-gT-GKW" secondAttribute="top" id="RlZ-y5-5O2"/>
@@ -301,6 +306,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="EC0-3L-sIE"/>
+                    <connections>
+                        <outlet property="atView" destination="ppS-3o-yDX" id="43p-ey-TxX"/>
+                        <outlet property="contentStackView" destination="MxN-hU-Rgb" id="Wck-eF-mvJ"/>
+                        <outlet property="privacyBtn" destination="9vO-Fg-1rU" id="KEx-uh-Ij0"/>
+                        <outlet property="startBtn" destination="mmv-a0-4f5" id="0in-qn-a84"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZQY-er-NsT" sceneMemberID="firstResponder"/>
             </objects>
@@ -479,7 +490,7 @@
                                 <rect key="frame" x="20" y="504" width="353" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bernoulli theorem for head loss" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a2w-OR-0pB">
-                                        <rect key="frame" x="5" y="27.666666666666629" width="343" height="24.666666666666671"/>
+                                        <rect key="frame" x="5" y="25.333333333333371" width="343" height="29.666666666666671"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="21"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -528,7 +539,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bull Force FluidPressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6f2-79-GRr">
-                                <rect key="frame" x="75" y="72.666666666666671" width="260.66666666666669" height="28"/>
+                                <rect key="frame" x="75" y="69.666666666666671" width="287" height="33.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -822,10 +833,10 @@
             </objects>
             <point key="canvasLocation" x="4653" y="667"/>
         </scene>
-        <!--Bazins FormulaVC-->
+        <!--Bull Force Bazins FormulaVC-->
         <scene sceneID="HLd-fC-UQN">
             <objects>
-                <viewController storyboardIdentifier="BazinsFormulaVC" id="fmR-la-Rfb" customClass="BazinsFormulaVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BazinsFormulaVC" id="fmR-la-Rfb" customClass="BullForceBazinsFormulaVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b9s-sd-B6r">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -834,7 +845,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bazins weir flow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2je-j5-DTk">
-                                <rect key="frame" x="75.000000000000014" y="69.666666666666671" width="192.33333333333337" height="33.666666666666671"/>
+                                <rect key="frame" x="74.999999999999986" y="72.666666666666671" width="173.66666666666663" height="28"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -852,7 +863,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="neo-w2-86A">
-                                <rect key="frame" x="15" y="124.00000000000003" width="363" height="331.66666666666674"/>
+                                <rect key="frame" x="15" y="124" width="363" height="277"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="eHO-Tq-an7">
                                         <rect key="frame" x="0.0" y="0.0" width="363" height="100"/>
@@ -861,7 +872,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5NK-ZP-yXa">
-                                        <rect key="frame" x="10" y="114.99999999999999" width="343" height="201.66666666666663"/>
+                                        <rect key="frame" x="10" y="115" width="343" height="147"/>
                                         <string key="text">Q = flow rate (cubic meters per second, m³/s)
 Cd= discharge coefficient (dimensionless, typically between 0.58 and 0.62)
 L = length of the weir crest (meters)
@@ -957,6 +968,9 @@ H = height of water above the weir crest (meters)</string>
                                 </constraints>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" image="back"/>
+                                <connections>
+                                    <action selector="popAction:" destination="jsy-2A-55h" eventType="touchUpInside" id="igl-Ps-w4C"/>
+                                </connections>
                             </button>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="RyP-um-QWS">
                                 <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
@@ -976,6 +990,13 @@ H = height of water above the weir crest (meters)</string>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="7MQ-dX-Quq"/>
+                    <connections>
+                        <outlet property="bottomCos" destination="Cbo-Xy-wAt" id="tCu-b7-KOK"/>
+                        <outlet property="bullBackBtn" destination="Nzr-4D-2jx" id="5GZ-kh-WlQ"/>
+                        <outlet property="bullIndicatorView" destination="RyP-um-QWS" id="Tsi-Cl-cNO"/>
+                        <outlet property="bullWebView" destination="2u9-91-h0N" id="Fre-ce-VKn"/>
+                        <outlet property="topCos" destination="e1t-Me-FLm" id="ykz-dK-jnj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hKq-nG-RLw" sceneMemberID="firstResponder"/>
             </objects>
@@ -1245,10 +1266,10 @@ D = outer diameter of the pipe in inches</string>
             </objects>
             <point key="canvasLocation" x="2720" y="-26"/>
         </scene>
-        <!--AbsoluteVC-->
+        <!--Bull Force AbsoluteVC-->
         <scene sceneID="N3J-Dd-QKr">
             <objects>
-                <viewController storyboardIdentifier="AbsoluteVC" id="xa0-Hb-QC6" customClass="AbsoluteVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AbsoluteVC" id="xa0-Hb-QC6" customClass="BullForceAbsoluteVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6at-58-CdG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1257,7 +1278,7 @@ D = outer diameter of the pipe in inches</string>
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Absolute pressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdd-cH-Yh8">
-                                <rect key="frame" x="75.000000000000014" y="70.333333333333329" width="212.33333333333337" height="32.333333333333329"/>
+                                <rect key="frame" x="75" y="73" width="186" height="27"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1321,10 +1342,10 @@ D = outer diameter of the pipe in inches</string>
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hai-BA-rFs">
-                                <rect key="frame" x="20" y="324" width="353" height="58"/>
+                                <rect key="frame" x="20" y="324" width="353" height="53.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DWo-JW-JUs">
-                                        <rect key="frame" x="10" y="15" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="14.999999999999998" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1519,10 +1540,10 @@ h = height above a reference level (meters, m)</string>
             </objects>
             <point key="canvasLocation" x="2019" y="667"/>
         </scene>
-        <!--Absolute FormulaVC-->
+        <!--Bull Force Absolute FormulaVC-->
         <scene sceneID="tLj-0Q-YTF">
             <objects>
-                <viewController storyboardIdentifier="AbsoluteFormulaVC" id="1Rf-es-yeK" customClass="AbsoluteFormulaVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AbsoluteFormulaVC" id="1Rf-es-yeK" customClass="BullForceAbsoluteFormulaVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z7G-o8-rcI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1531,7 +1552,7 @@ h = height above a reference level (meters, m)</string>
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Absolute pressure" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsU-kW-g0V">
-                                <rect key="frame" x="74.999999999999986" y="69.666666666666671" width="221.66666666666663" height="33.666666666666671"/>
+                                <rect key="frame" x="75" y="72.666666666666671" width="194" height="28"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1549,7 +1570,7 @@ h = height above a reference level (meters, m)</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RpO-GF-wfT">
-                                <rect key="frame" x="15" y="129" width="363" height="214"/>
+                                <rect key="frame" x="15" y="129" width="363" height="200"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="absoulte" translatesAutoresizingMaskIntoConstraints="NO" id="sDY-hW-KrN">
                                         <rect key="frame" x="0.0" y="0.0" width="363" height="100"/>
@@ -1558,7 +1579,7 @@ h = height above a reference level (meters, m)</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1U-w9-LqV">
-                                        <rect key="frame" x="10" y="115" width="343" height="84"/>
+                                        <rect key="frame" x="10" y="115" width="343" height="70"/>
                                         <string key="text">Pa = absoulte pressure
 pg = Gauge Pressure
 Pat = Atmospheric Pressure</string>
@@ -1741,10 +1762,10 @@ hf= head loss due to friction and other factors (meters, m)</string>
             </objects>
             <point key="canvasLocation" x="2648" y="667"/>
         </scene>
-        <!--Acoustic FormulaVC-->
+        <!--Bull Force Acoustic FormulaVC-->
         <scene sceneID="LSv-aN-UXp">
             <objects>
-                <viewController storyboardIdentifier="AcousticFormulaVC" id="c3T-zy-uOg" customClass="AcousticFormulaVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AcousticFormulaVC" id="c3T-zy-uOg" customClass="BullForceAcousticFormulaVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UNV-mw-1rV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1753,7 +1774,7 @@ hf= head loss due to friction and other factors (meters, m)</string>
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acoustic flowmeter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8s-ax-U0C">
-                                <rect key="frame" x="75.000000000000014" y="69.666666666666671" width="236.33333333333337" height="33.666666666666671"/>
+                                <rect key="frame" x="75.000000000000014" y="72.666666666666671" width="206.33333333333337" height="28"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1771,7 +1792,7 @@ hf= head loss due to friction and other factors (meters, m)</string>
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NSf-tk-AuF">
-                                <rect key="frame" x="15" y="129" width="363" height="382"/>
+                                <rect key="frame" x="15" y="129" width="363" height="340"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Acoustic" translatesAutoresizingMaskIntoConstraints="NO" id="afK-ud-7Gd">
                                         <rect key="frame" x="0.0" y="0.0" width="363" height="100"/>
@@ -1780,7 +1801,7 @@ hf= head loss due to friction and other factors (meters, m)</string>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fPx-3S-fgL">
-                                        <rect key="frame" x="10" y="115" width="343" height="252"/>
+                                        <rect key="frame" x="10" y="115" width="343" height="210"/>
                                         <string key="text">Q = Volumetric flow rate
 K = Calibration constant specific to the flowmeter
 D = Distance between the ultrasonic transducers
@@ -1852,10 +1873,10 @@ t2= Transit time of sound against the direction of flow</string>
             </objects>
             <point key="canvasLocation" x="2082" y="-26"/>
         </scene>
-        <!--AcousticVC-->
+        <!--Bull Force AcousticVC-->
         <scene sceneID="kcs-Bk-6HZ">
             <objects>
-                <viewController storyboardIdentifier="AcousticVC" id="7gh-99-BOc" customClass="AcousticVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AcousticVC" id="7gh-99-BOc" customClass="BullForceAcousticVC" customModule="BullForceFluidPressure" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g9F-fZ-VJc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1880,7 +1901,7 @@ t2= Transit time of sound against the direction of flow</string>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acoustic flowmeter" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ex8-pw-TN3">
-                                <rect key="frame" x="74.999999999999986" y="70.333333333333329" width="226.66666666666663" height="32.333333333333329"/>
+                                <rect key="frame" x="74.999999999999986" y="73" width="197.66666666666663" height="27"/>
                                 <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="23"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1944,10 +1965,10 @@ t2= Transit time of sound against the direction of flow</string>
                                 </constraints>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gHS-4o-bI9">
-                                <rect key="frame" x="20" y="434" width="353" height="58"/>
+                                <rect key="frame" x="20" y="434" width="353" height="53.333333333333314"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dJR-xw-m2n">
-                                        <rect key="frame" x="10" y="15" width="333" height="28"/>
+                                        <rect key="frame" x="10" y="14.999999999999998" width="333" height="23.333333333333329"/>
                                         <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>

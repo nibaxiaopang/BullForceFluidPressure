@@ -1,5 +1,5 @@
 //
-//  AcousticFormulaVC.swift
+//  AbsoluteFormulaVC.swift
 //  Bull Force FluidPressure
 //
 //  Created by Mac on 24/10/24.
@@ -7,8 +7,8 @@
 
 import UIKit
 
-class AcousticFormulaVC: UIViewController {
-    
+class BullForceAbsoluteFormulaVC: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +20,7 @@ class AcousticFormulaVC: UIViewController {
     }
         
     @IBAction func TapOnCalculte(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AcousticVC") as! AcousticVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AbsoluteVC") as! BullForceAbsoluteVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     

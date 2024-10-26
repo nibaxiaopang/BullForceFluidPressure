@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AcousticVC: UIViewController {
+class BullForceAcousticVC: UIViewController {
     
     @IBOutlet weak var txtAcousticPathLengthBetweenTransducerFaces: UITextField!
     @IBOutlet weak var txtAngleBetweenAcousticPathAndThePipeLongitudinalAxis: UITextField!

@@ -6,7 +6,7 @@
 //
 import UIKit
 
-class AbsoluteVC: UIViewController {
+class BullForceAbsoluteVC: UIViewController {
 
     @IBOutlet weak var txtGaugePressure: UITextField!
     @IBOutlet weak var txtAtmosphericPressure: UITextField!

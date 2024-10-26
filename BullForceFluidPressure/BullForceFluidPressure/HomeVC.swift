@@ -16,12 +16,12 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func TapOnAbsolutePressure(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AbsoluteFormulaVC") as! AbsoluteFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AbsoluteFormulaVC") as! BullForceAbsoluteFormulaVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func TapOnAcousticFlowmeter(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AcousticFormulaVC") as! AcousticFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "AcousticFormulaVC") as! BullForceAcousticFormulaVC
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
@@ -31,7 +31,7 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func TapOnBazins(_ sender: Any) {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "BazinsFormulaVC") as! BazinsFormulaVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "BazinsFormulaVC") as! BullForceBazinsFormulaVC
         self.navigationController?.pushViewController(vc, animated: true)
         
     }

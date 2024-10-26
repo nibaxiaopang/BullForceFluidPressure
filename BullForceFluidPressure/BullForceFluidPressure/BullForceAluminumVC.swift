@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AluminumVC: UIViewController {
+class BullForceAluminumVC: UIViewController {
     
     @IBOutlet weak var txtAllowableStress: UITextField!
     @IBOutlet weak var txtWallThickness: UITextField!

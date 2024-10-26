@@ -2,7 +2,7 @@
 //  BullForceNavigationController.m
 //  BullForceFluidPressure
 //
-//  Created by jin fu on 2024/10/26.
+//  Created by Bull Force FluidPressure on 2024/10/26.
 //
 
 #import "BullForceNavigationController.h"
